@@ -1,4 +1,5 @@
-# DailysWorking
+# Dailys Working - Yuhmak
+
 12-04-2023
 Conocí la estructura de proyecto tanto en front como back, me tome el tiempo de profundizar en PHP para aportar mucho más a futuro, y se llevo a cabo la realización del botón que va a llevar a la parte en la que se va a ingresar el código del producto a buscar en los productos del hogar y electrodomesticos.
 
