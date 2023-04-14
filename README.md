@@ -9,5 +9,6 @@ Se realizo la ruta en el back de Node/Express para buscar el producto del hogar 
 14-04-2023 <br/>
 Se termino la tabla en la que se renderiza el producto buscado, y además de eso, se llevo a cabo el desarrollo de lo visual sobre donde va an a ir los datos extras y donde podremos sobrescribirlos a futuro.
 
-16-04-2023 <br/>
+15-04-2023 <br/>
 Se empieza con algunos rediseños para que el uso de la página sea más interactivo y más ameno.
+
