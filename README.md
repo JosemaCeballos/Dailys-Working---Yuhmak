@@ -25,4 +25,4 @@ Se descubrio los siguientes:<br/>
 -En socio de negocios recibe undefined en destino de factura, cosa que estoy seguro que no debe de ser así.<br/>
 
 17-04-2023<br/>
-Se avanza con el formulario y me cuestiono la posibilidad de crear componentes de 0 para el formulario de home appliance.
+Decidi crear mis componentes de 0, deje creado el guardado de información dentro de un objeto.
