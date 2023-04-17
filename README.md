@@ -17,7 +17,7 @@ Testeo de bugs de lo anteriormente implementado desde antes que ingrese a Yuhmak
 Se soluciono los siguientes bugs:<br/>
 -Si se da en status de llamada cerrado, el front explotan (solucionado).<br/>
 -Devolver una respuesta en caso de no encontrar producto por codigo, dni o chasis. (solucionado).<br/>
-Se descubrio los siguientes:
+Se descubrio los siguientes:<br/>
 -Si se le da un service a una moto/interno, el mismo service es dado a todas las motos (desconozco si es problema solo de front, testear en back).<br/>
 -Al cerrar un service este sigue figurando como abierto en el HomePage (/inicio), y al dar editar llamado al service el back explota (aprender lo más pronto posible SAP para ver el porque de este comportamiento, ya que puede se tanto problema del back de node, como problema de la base de datos SAP).<br/>
 -La tarjeta de días atrás de services abiertos renderiza 20 días atrás cosa que se hace en el mismo día.<br/>
