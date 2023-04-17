@@ -12,3 +12,14 @@ Se termino la tabla en la que se renderiza el producto buscado, y además de eso
 15-04-2023 <br/>
 Se empieza con algunos rediseños para que el uso de la página sea más interactivo y más ameno.
 
+16-04-2023 | 17-04-2023 <br/>
+Testeo de bugs de lo anteriormente implementado desde antes que ingrese a Yuhmak. 
+Se soluciono los siguientes bugs:
+-Si se da en status de llamada cerrado, el front explotan (solucionado).
+-Devolver una respuesta en caso de no encontrar producto por codigo, dni o chasis. (solucionado).
+Se descubrio los siguientes:
+-Si se le da un service a una moto/interno, el mismo service es dado a todas las motos (desconozco si es problema solo de front, testear en back).
+-Al cerrar un service este sigue figurando como abierto en el HomePage (/inicio), y al dar editar llamado al service el back explota (aprender lo más pronto posible SAP para ver el porque de este comportamiento, ya que puede se tanto problema del back de node, como problema de la base de datos SAP).
+-La tarjeta de días atrás de services abiertos renderiza 20 días atrás cosa que se hace en el mismo día.
+-Implementar un loader para la carga de información de los formularios y para mejorar el rendimiento y la funcionalidad de la app.
+-En socio de negocios recibe undefined en destino de factura, cosa que estoy seguro que no debe de ser así.
