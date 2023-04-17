@@ -15,7 +15,7 @@ Se empieza con algunos rediseños para que el uso de la página sea más interac
 16-04-2023 | 17-04-2023 <br/>
 Testeo de bugs de lo anteriormente implementado desde antes que ingrese a Yuhmak. 
 Se soluciono los siguientes bugs:<br/>
--Si se da en status de llamada cerrado, el front explotan (solucionado).<br/>
+-Si se da en status de llamada cerrado, el front explota (solucionado).<br/>
 -Devolver una respuesta en caso de no encontrar producto por codigo, dni o chasis. (solucionado).<br/>
 Se descubrio los siguientes:<br/>
 -Si se le da un service a una moto/interno, el mismo service es dado a todas las motos (desconozco si es problema solo de front, testear en back).<br/>
