@@ -23,3 +23,6 @@ Se descubrio los siguientes:<br/>
 -La tarjeta de días atrás de services abiertos renderiza 20 días atrás cosa que se hace en el mismo día.<br/>
 -Implementar un loader para la carga de información de los formularios y para mejorar el rendimiento y la funcionalidad de la app.<br/>
 -En socio de negocios recibe undefined en destino de factura, cosa que estoy seguro que no debe de ser así.<br/>
+
+17-04-2023<br/>
+Se avanza con el formulario y me cuestiono la posibilidad de crear componentes de 0 para el formulario de home appliance.
