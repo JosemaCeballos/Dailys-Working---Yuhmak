@@ -63,5 +63,6 @@ Se tiene la intención de avanzar con el arreglo de los bugs, creo que la secci�
 Bugs slucionados:<br/>
 ✅  Al cerrar un service este sigue figurando como abierto en el HomePage (/inicio), y al dar editar llamado al service el back explota (aprender lo más pronto posible SAP para ver el porque de este comportamiento, ya que puede se tanto problema del back de node, como problema de la base de datos SAP).<br/>
 ✅  Si se le da un service a una moto/interno, el mismo service es dado a todas las motos/interno (el problema era de front, se soluciono a través de un condicional que si la ruta contiene "servicio-interno" renderice una cosa u otra. A futuro SI o SI se debera hacer un nuevo formulario para renderizar la información del servicio especifico.<br/>
-✅  En socio de negocios recibe undefined en destino de factura, cosa que estoy seguro que no debe de ser así. Con respecto a esto se decidio no renderizarlo en servicio interno ya que la dirección solo es necesaria cuando se recibe de los clientes.
+✅  En socio de negocios recibe undefined en destino de factura, cosa que estoy seguro que no debe de ser así. Con respecto a esto se decidio no renderizarlo en servicio interno ya que la dirección solo es necesaria cuando se recibe de los clientes.<br/>
+✅  Al cerrar un service este sigue figurando como abierto en el HomePage (/inicio), y al dar editar llamado al service el back explota. Update: Ya se cierra correctamente y ya renderiza el cierre de este service en el componente home. <br/>
 
