@@ -3,12 +3,14 @@
 12-04-2023 <br/>
 Conocí la estructura de proyecto tanto en front como back, me tome el tiempo de profundizar en PHP para aportar mucho más a futuro, y se llevo a cabo la realización de la ruta y del botón que va a llevar a la parte en la que se va a ingresar el código del producto a buscar en los productos del hogar y electrodomesticos.<br/>
 App:<br/>
-![image](https://user-images.githubusercontent.com/109984981/233095043-865504b0-06ef-4afe-8aa6-740672745e50.png)
+![image](https://user-images.githubusercontent.com/109984981/233095043-865504b0-06ef-4afe-8aa6-740672745e50.png)<br/>
 page/HomePage:<br/>
-![image](https://user-images.githubusercontent.com/109984981/233095790-7ac38e96-f003-482f-9072-5701c76386e7.png)
+![image](https://user-images.githubusercontent.com/109984981/233095790-7ac38e96-f003-482f-9072-5701c76386e7.png)<br/>
 page/ClientPage:<br/>
 Además también se mejoro la lógica para renderizar una página u otra de manera tal que si a futuro se desea agregar nuevas rutas, estas puedan ser agregadas fácilmente:<br/>
-![image](https://user-images.githubusercontent.com/109984981/233095524-dbc4ba80-7303-4d14-a4fb-619ba1c3758f.png)
+![image](https://user-images.githubusercontent.com/109984981/233095524-dbc4ba80-7303-4d14-a4fb-619ba1c3758f.png)<br/>
+![image](https://user-images.githubusercontent.com/109984981/233096318-4d1b5d6d-c041-400e-bf95-a7dccc06e708.png)<br/>
+
 
 
 13-04-2023 <br/>
