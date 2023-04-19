@@ -59,7 +59,7 @@ Estructure completamente el contenido de los componentes de HomeAppliances de ma
 
 
 19-04-2034 <br/>
-Se tiene la intención de avanzar con el arreglo de los bugs, creo que la sección renderizado de servicio va a tener que ser realizada completamente aparte del formulario, aún tengo esa duda en standby.
+Se tiene la intención de avanzar con el arreglo de los bugs, creo que la sección renderizado de servicio va a tener que ser realizada completamente aparte del formulario, aún tengo esa duda en standby.<br/>
 Bugs slucionados:<br/>
 ✅  Al cerrar un service este sigue figurando como abierto en el HomePage (/inicio), y al dar editar llamado al service el back explota (aprender lo más pronto posible SAP para ver el porque de este comportamiento, ya que puede se tanto problema del back de node, como problema de la base de datos SAP).<br/>
 ✅  Si se le da un service a una moto/interno, el mismo service es dado a todas las motos/interno (el problema era de front, se soluciono a través de un condicional que si la ruta contiene "servicio-interno" renderice una cosa u otra. A futuro SI o SI se debera hacer un nuevo formulario para renderizar la información del servicio especifico.<br/>
