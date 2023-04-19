@@ -25,4 +25,10 @@ Se descubrio los siguientes:<br/>
 -En socio de negocios recibe undefined en destino de factura, cosa que estoy seguro que no debe de ser así.<br/>
 
 17-04-2023<br/>
-Decidi crear mis componentes de 0, deje creado el guardado de información dentro de un objeto.
+Decidi crear mis componentes de 0, deje creado el guardado de información dentro de un objeto.<br/>
+
+18-04-2023<br/>
+Estructure completamente el contenido de los componentes de HomeAppliances de manera tal que si cualquiera quiere agarrar el código lo pueda entender de manera sencilla o recibiendo explicaciones muy basicas.Hice pequeñas correcciones al guardado de la información para que este tenga un funcionamiento mas apto para lo necesario, valide dicho formulario de manera tal que solo me falte recibir el endpoint del back y mande la información (también se aplico la lógica para mandar dicha información de manera tal que si no cumple con las validaciones la información no sea mandada, y en caso de cumplir con lo exigido la envie. <br/>
+
+19-04-2034 <br/>
+Se tiene la intención de avanzar con el arreglo de los bugs, creo que la sección renderizado de servicio va a tener que ser realizada completamente aparte del formulario, aún tengo esa duda en standby.
