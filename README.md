@@ -27,7 +27,7 @@ Se termino la tabla en la que se renderiza el producto buscado, y además de eso
 
 15-04-2023 <br/>
 Se empieza con algunos rediseños para que el uso de la página sea más interactivo y más ameno.<br/>
-![image](https://user-images.githubusercontent.com/109984981/233098051-d454ad4c-0e12-46f8-ad29-b674629e9117.png) <br/>
+![image](https://user-images.githubusercontent.com/109984981/233101798-2d7d8b83-a7dd-4b19-8372-5fd12e8d28e5.png) <br/>
 
 16-04-2023 | 17-04-2023 <br/>
 Testeo de bugs de lo anteriormente implementado desde antes que ingrese a Yuhmak. 
