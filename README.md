@@ -48,20 +48,20 @@ Estructure completamente el contenido de los componentes de HomeAppliances de ma
 Organización de carpetas para homeAppliances: <br/>
 -FormService contiene el formulario en el que se renderiza información extra y donde se guarda la información dentro de un objeto. InputServices contiene la información extra, Senders contiene lo que se modifica, y TabsMenu contiene lo renderizado según la sección deseada.)<br/>
 ![image](https://user-images.githubusercontent.com/109984981/233098982-bd496210-acdc-4e6d-bdb1-262e8fd6bf08.png)<br/>
--Service contiene las funciones que les pegan a un endpoint <br/>
--HomeApplianceInput contiene la barra de busqueda según el código del producto <br/>
--TableOfHomeAppliance contiene la tabla que primeramente se renderiza una vez la busqueda es realizada <br/>
+✅ Service contiene las funciones que les pegan a un endpoint <br/>
+✅ HomeApplianceInput contiene la barra de busqueda según el código del producto <br/>
+✅ TableOfHomeAppliance contiene la tabla que primeramente se renderiza una vez la busqueda es realizada <br/>
 Validación de información en el context: <br/>
 ![image](https://user-images.githubusercontent.com/109984981/233100163-ad73a22e-4ea7-4df0-b5f4-6643f6ff7602.png) <br/>
 Context de homeAppliance: <br/>
--Dentro de la carpeta controllers de momento se encuentra la validación, a futuro va a estar las nuevas funciones que se deban realizar y aplicar sobre mi estado global.<br/>
+✅ Dentro de la carpeta controllers de momento se encuentra la validación, a futuro va a estar las nuevas funciones que se deban realizar y aplicar sobre mi estado global.<br/>
 -index.js contiene todo lo necesario para que mi contexto global funcione de manear correcta y sea lo más legible e entendible posible.<br/>
 
 
 19-04-2034 <br/>
 Se tiene la intención de avanzar con el arreglo de los bugs, creo que la sección renderizado de servicio va a tener que ser realizada completamente aparte del formulario, aún tengo esa duda en standby.
 Bugs slucionados:<br/>
--Al cerrar un service este sigue figurando como abierto en el HomePage (/inicio), y al dar editar llamado al service el back explota (aprender lo más pronto posible SAP para ver el porque de este comportamiento, ya que puede se tanto problema del back de node, como problema de la base de datos SAP).<br/>
--Si se le da un service a una moto/interno, el mismo service es dado a todas las motos/interno (el problema era de front, se soluciono a través de un condicional que si la ruta contiene "servicio-interno" renderice una cosa u otra. A futuro SI o SI se debera hacer un nuevo formulario para renderizar la información del servicio especifico.<br/>
--En socio de negocios recibe undefined en destino de factura, cosa que estoy seguro que no debe de ser así. Con respecto a esto se decidio no renderizarlo en servicio interno ya que la dirección solo es necesaria cuando se recibe de los clientes.
+✅  Al cerrar un service este sigue figurando como abierto en el HomePage (/inicio), y al dar editar llamado al service el back explota (aprender lo más pronto posible SAP para ver el porque de este comportamiento, ya que puede se tanto problema del back de node, como problema de la base de datos SAP).<br/>
+✅  Si se le da un service a una moto/interno, el mismo service es dado a todas las motos/interno (el problema era de front, se soluciono a través de un condicional que si la ruta contiene "servicio-interno" renderice una cosa u otra. A futuro SI o SI se debera hacer un nuevo formulario para renderizar la información del servicio especifico.<br/>
+✅  En socio de negocios recibe undefined en destino de factura, cosa que estoy seguro que no debe de ser así. Con respecto a esto se decidio no renderizarlo en servicio interno ya que la dirección solo es necesaria cuando se recibe de los clientes.
 
