@@ -52,7 +52,7 @@ Organización de carpetas para homeAppliances: <br/>
 -HomeApplianceInput contiene la barra de busqueda según el código del producto <br/>
 -TableOfHomeAppliance contiene la tabla que primeramente se renderiza una vez la busqueda es realizada <br/>
 Validación de información en el context: <br/>
-![image](https://user-images.githubusercontent.com/109984981/233100163-ad73a22e-4ea7-4df0-b5f4-6643f6ff7602.png)
+![image](https://user-images.githubusercontent.com/109984981/233100163-ad73a22e-4ea7-4df0-b5f4-6643f6ff7602.png) <br/>
 Context de homeAppliance: <br/>
 -Dentro de la carpeta controllers de momento se encuentra la validación, a futuro va a estar las nuevas funciones que se deban realizar y aplicar sobre mi estado global.<br/>
 -index.js contiene todo lo necesario para que mi contexto global funcione de manear correcta y sea lo más legible e entendible posible.<br/>
