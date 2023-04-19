@@ -1,6 +1,6 @@
 # Dailys Working - Yuhmak
 
-12-04-2023 <br/>
+# 12-04-2023 <br/>
 Conocí la estructura de proyecto tanto en front como back, me tome el tiempo de profundizar en PHP para aportar mucho más a futuro, y se llevo a cabo la realización de la ruta y del botón que va a llevar a la parte en la que se va a ingresar el código del producto a buscar en los productos del hogar y electrodomesticos.<br/>
 ✅ App:<br/>
 ![image](https://user-images.githubusercontent.com/109984981/233095043-865504b0-06ef-4afe-8aa6-740672745e50.png)<br/>
@@ -13,7 +13,7 @@ Además también se mejoro la lógica para renderizar una página u otra de mane
 
 
 
-13-04-2023 <br/>
+# 13-04-2023 <br/>
 Se realizo la ruta en el back de Node/Express para buscar el producto del hogar que se desee encontrar, y de parte de front se realizo la lógica necesaria para realizar ese pedido al back. Se comprobo dicha funcionalidad y esta andando correctamente. <br/>
 ✅ Backend:<br/>
 ![image](https://user-images.githubusercontent.com/109984981/233096552-e713149c-20b8-4488-b778-958222f04209.png)<br/>
@@ -21,15 +21,15 @@ Se realizo la ruta en el back de Node/Express para buscar el producto del hogar 
 ![image](https://user-images.githubusercontent.com/109984981/233096940-764127be-412e-445a-a932-20e52824f896.png)<br/>
 
 
-14-04-2023 <br/>
+# 14-04-2023 <br/>
 Se termino la tabla en la que se renderiza el producto buscado, y además de eso, se llevo a cabo el desarrollo de lo visual sobre donde va a ir los datos extras y donde podremos sobrescribirlos a futuro. <br/>
 ![image](https://user-images.githubusercontent.com/109984981/233097419-a1847680-a3f9-49a3-8785-54d3fd4128a9.png) <br/>
 
-15-04-2023 <br/>
+# 15-04-2023 <br/>
 Se empieza con algunos rediseños para que el uso de la página sea más interactivo y más ameno.<br/>
 ![image](https://user-images.githubusercontent.com/109984981/233101798-2d7d8b83-a7dd-4b19-8372-5fd12e8d28e5.png) <br/>
 
-16-04-2023 | 17-04-2023 <br/>
+# 16-04-2023 | 17-04-2023 <br/>
 Testeo de bugs de lo anteriormente implementado desde antes que ingrese a Yuhmak. 
 Se soluciono los siguientes bugs:<br/>
 -Si se da en status de llamada cerrado, el front explota (solucionado).<br/>
@@ -40,10 +40,10 @@ Se descubrio los siguientes:<br/>
 -La tarjeta de días atrás de services abiertos renderiza 20 días atrás cosa que se hace en el mismo día.<br/>
 -En socio de negocios recibe undefined en destino de factura, cosa que estoy seguro que no debe de ser así.<br/>
 
-17-04-2023<br/>
+# 17-04-2023<br/>
 Decidi crear mis componentes de 0, de manear tal que toda la información necesaria se guarde dentro de un objeto y a futuro reciba modificaciones minimas.<br/>
 
-18-04-2023<br/>
+# 18-04-2023<br/>
 Estructure completamente el contenido de los componentes de HomeAppliances de manera tal que si cualquiera quiere agarrar el código lo pueda entender de manera sencilla o recibiendo explicaciones muy basicas.Hice pequeñas correcciones al guardado de la información para que este tenga un funcionamiento mas apto para lo necesario, valide dicho formulario de manera tal que solo me falte recibir el endpoint del back y mande la información (también se aplico la lógica para mandar dicha información de manera tal que si no cumple con las validaciones la información no sea mandada, y en caso de cumplir con lo exigido la envie. <br/>
 - Organización de carpetas para homeAppliances: <br/>
 ✅ FormService contiene el formulario en el que se renderiza información extra y donde se guarda la información dentro de un objeto. InputServices contiene la información extra, Senders contiene lo que se modifica, y TabsMenu contiene lo renderizado según la sección deseada.)<br/>
@@ -58,7 +58,7 @@ Estructure completamente el contenido de los componentes de HomeAppliances de ma
 ✅ index.js contiene todo lo necesario para que mi contexto global funcione de manear correcta y sea lo más legible e entendible posible.<br/>
 
 
-19-04-2034 <br/>
+# 19-04-2034 <br/>
 Se tiene la intención de avanzar con el arreglo de los bugs, creo que la sección renderizado de servicio va a tener que ser realizada completamente aparte del formulario, aún tengo esa duda en standby.<br/>
 Bugs slucionados:<br/>
 ✅  Al cerrar un service este sigue figurando como abierto en el HomePage (/inicio), y al dar editar llamado al service el back explota (aprender lo más pronto posible SAP para ver el porque de este comportamiento, ya que puede se tanto problema del back de node, como problema de la base de datos SAP).<br/>
